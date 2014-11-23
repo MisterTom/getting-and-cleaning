@@ -37,6 +37,6 @@ The columns of the output data files are as follows:
 
 ** "activity" - the activity each row of data relates to consistent with the activity_labels.txt file in the original dataset
 
-** mean and std columns consistent with the features.txt file, as described in the the features_info.txt file, both again as per the original data set.
+** mean and std columns consistent with the features.txt file, as described in the the features_info.txt file, both again as per the original data set (and hence with the same units).
 
 The "cleandataset" file contains original data, and the means file contains calculated means.  the column names are consistent. "means" does not contain a "testgroup" column, as the means are only summarised by activity.
